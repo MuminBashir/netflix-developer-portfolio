@@ -106,7 +106,7 @@ Your feedback is valuable and helps make this project better for everyone. Thank
 ## 📧 Contact Me
 
 - 💼 [Portfolio Website](https://muminbashir.in)
-- 📧 Email: [chintusamala96@gmail.com](mailto:belikemumin@gmail.com)
+- 📧 Email: [belikemumin@gmail.com](mailto:belikemumin@gmail.com)
 - 🔗 [LinkedIn](https://uk.linkedin.com/in/mumin-bashir)
 
 ---
