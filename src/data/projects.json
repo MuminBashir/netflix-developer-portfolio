@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Faciliti Management App",
+        "description": "A full-stack for facility managment with features like visitor management, Employee management, Inventory management, etc.",
+        "techUsed": "Next.js, FastApi, GraphDB, Stripe, AWS",
+        "image": {
+            "url": "/images/projects/faciliti.png"
+        },
+        "link": "https://faciliti.com"
+    },
+    {
+        "title": "Alilals Website",
+        "description": "App developed for a client to manage their business and customers with features like  price calculation, booking, blogs, content management, otp verification, notification system, etc.",
+        "techUsed": "React, TypeScript, Firebase, Shadcn UI, Hostinger",
+        "image": {
+            "url": "/images/projects/alilals.png"
+        },
+        "link": "https://alilals.com"
+    },
+    {
+        "title": "Shehjar Ecommerce Website",
+        "description": "A modern ecommerce website designed for a client to sell their kashmiri products online with features like product management, order management, payment integration, etc.",
+        "techUsed": "Next.js, React, Firebase, Shadcn UI, Tailwind CSS, Hostinger, Stripe",
+        "image": {
+            "url": "/images/projects/shehjar.png"
+        },
+        "link": "https://shehjar.co.in"
+    },
+    {
+        "title": "Bittube",
+        "description": "A youtube clone built with react, and public api with features like search, watch, comment, like, etc",
+        "techUsed": "React, Api, Tailwind CSS, Netlify",
+        "image": {
+            "url": "/images/projects/bittube.png"
+        },
+        "link": "https://bittube.netlify.app"
+    },
+    {
+        "title": "Cryptoverse",
+        "description": "A modern web application to track the crypto market with features like search, watchlist, news, etc",
+        "techUsed": "React, Api, Tailwind CSS, Netlify",
+        "image": {
+            "url": "/images/projects/cryptoverse.png"
+        },
+        "link": "https://mumincryptoverse.netlify.app"
+    },
+    {
+        "title": "Angular Emailer",
+        "description": "A angular webapp to send emails like gmail",
+        "techUsed": "Angular, Node.js, Git",
+        "image": {
+            "url": "/images/projects/emailer.png"
+        },
+        "link": "https://muminmailer.vercel.app"
+    }
+]

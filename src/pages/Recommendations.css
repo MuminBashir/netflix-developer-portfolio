@@ -1,72 +1,229 @@
-/* Ensure the container takes up the full viewport height and centers the content */
+/* Container with proper spacing and Netflix theme */
 .timeline-container {
+  padding: 120px 20px;
+  background-color: #141414;
+  color: #fff;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
-/* Styling for the recommendation card */
+/* Loading state styling */
+.loading {
+  color: #e50914;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Recommendation card with Netflix theming */
 .recommendation-card {
-  max-width: 800px;
-  width: 100%; /* Responsive width to ensure it fits smaller screens */
-  background-color: #1e1e1e; /* Slightly lighter for contrast */
+  max-width: 900px;
+  width: 100%;
+  background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
   color: #fff;
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 8px 20px rgba(255, 0, 0, 0.3), 0 0 10px rgba(255, 0, 0, 0.2); /* Softer shadow with subtle glow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: 2px dotted #e50914; /* Netflix red border */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(229, 9, 20, 0.3);
+  transition: all 0.3s ease;
+  border: 1px solid rgba(229, 9, 20, 0.2);
+  opacity: 0;
+  animation: fadeInUp 0.6s forwards ease-out;
+  animation-delay: var(--delay);
 }
 
 .recommendation-card:hover {
-  transform: scale(1.03); /* Slight zoom on hover */
-  box-shadow: 0 12px 30px rgba(255, 0, 0, 0.5), 0 0 15px rgba(255, 0, 0, 0.4); /* Enhanced shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(229, 9, 20, 0.4);
+  border-color: rgba(229, 9, 20, 0.6);
 }
 
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Header section styling */
 .recommendation-header {
   display: flex;
   align-items: center;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(229, 9, 20, 0.3);
+}
+
+/* Profile image container */
+.profile-image-container {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+  flex-shrink: 0;
 }
 
 .profile-pic {
-  width: 70px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
-  margin-right: 15px;
-  border: 2px solid #e50914; /* Netflix red border */
+  border: 3px solid #e50914;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
-.recommendation-header h3 {
-  font-size: 1.5rem;
-  color: #e50914; /* Netflix red for name */
-  margin: 0;
+.profile-pic:hover {
+  transform: scale(1.05);
 }
 
-.recommendation-header p {
-  margin: 3px 0;
+/* Fallback user icon */
+.profile-icon-fallback {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #e50914, #b8070f);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 2rem;
+  border: 3px solid #e50914;
+  transition: all 0.3s ease;
+}
+
+.profile-icon-fallback:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(229, 9, 20, 0.5);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Header info styling */
+.header-info {
+  flex: 1;
+}
+
+.header-info h3 {
+  font-size: 1.6rem;
+  color: #e50914;
+  margin: 0 0 8px 0;
+  font-weight: 600;
+}
+
+.header-info .title {
+  font-size: 1rem;
+  color: #ffffff;
+  margin: 0 0 5px 0;
+  font-weight: 500;
+}
+
+.header-info .company {
   font-size: 0.9rem;
-  color: #999;
+  color: #cccccc;
+  margin: 0 0 8px 0;
 }
 
-.date {
-  color: #ccc;
+.header-info .date {
   font-size: 0.8rem;
+  color: #999999;
+  margin: 0;
+  font-style: italic;
 }
 
+/* Recommendation body styling */
 .recommendation-body {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1.7;
+  color: #f0f0f0;
 }
 
 .recommendation-body p {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
+  text-align: justify;
+}
+
+.recommendation-body p:last-child {
+  margin-bottom: 0;
 }
 
 .recommendation-body strong {
-  color: #e50914; /* Highlighted text in Netflix red */
+  color: #e50914;
+  font-weight: 600;
 }
 
 .recommendation-body p:first-of-type {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1.05rem;
+  color: #ffffff;
   margin-bottom: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .timeline-container {
+    padding: 80px 20px;
+    gap: 25px;
+  }
+
+  .recommendation-card {
+    padding: 25px;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .recommendation-header {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .profile-image-container {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .header-info h3 {
+    font-size: 1.4rem;
+  }
+
+  .recommendation-body {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-container {
+    padding: 60px 15px;
+    gap: 20px;
+  }
+
+  .recommendation-card {
+    padding: 20px;
+    margin: 0 10px;
+    max-width: calc(100% - 20px);
+  }
+
+  .profile-image-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profile-icon-fallback {
+    font-size: 1.8rem;
+  }
+
+  .header-info h3 {
+    font-size: 1.3rem;
+  }
+
+  .recommendation-body {
+    font-size: 0.9rem;
+  }
 }

@@ -1,0 +1,54 @@
+[
+    {
+        "timelineType": "work",
+        "name": "De Nada Tecnologia",
+        "title": "Full Stack Developer",
+        "techStack": "Next.js, FastApi, AWS, GraphDB, Docker, Git, CI/CD",
+        "summaryPoints": [
+            "Developed a fullstack appication to manage the facilities like co-working spaces, gyms, hospitals, etc.",
+            "Implemented microservices architecture",
+            "Mentored junior developers and conducted code reviews",
+            "Collaborated with product managers to define technical requirements"
+        ],
+        "dateRange": "Jan 2022 - Present"
+    },
+    {
+        "timelineType": "work",
+        "name": "CyberSpark UK",
+        "title": "Software Developer",
+        "techStack": "React, Angular, SCSS, Git, Monorepo",
+        "summaryPoints": [
+            "Developed multiple application under the monorepo architecture and centralized component library",
+            "Built responsive user interfaces for mobile and web applications",
+            "Collaborated with UX/UI designers to implement pixel-perfect designs",
+            "Participated in agile development processes and daily standups"
+        ],
+        "dateRange": "Dec 2023 - Feb 2024"
+    },
+    {
+        "timelineType": "work",
+        "name": "CyberSpark UK",
+        "title": "Frontend Developer Intern",
+        "techStack": "React, Angular, SCSS, Git, Monorepo",
+        "summaryPoints": [
+            "Developed multiple application under the monorepo architecture and centralized component library",
+            "Built responsive user interfaces for mobile and web applications",
+            "Collaborated with UX/UI designers to implement pixel-perfect designs",
+            "Participated in agile development processes and daily standups"
+        ],
+        "dateRange": "Dec 2023 - Feb 2024"
+    },
+    {
+        "timelineType": "education",
+        "name": "University of Kashmir",
+        "title": "Bachelor of Technology in Electronics and Communication Engineering",
+        "techStack": "Microcontrollers, Embedded Systems, Digital Signal Processing, Computer Networks, Python, C++, Java",
+        "summaryPoints": [
+            "Graduated with 8.3 CGPA",
+            "Completed web3 project on ethereum blockchain to develop a decentralized application for voting",
+            "Active member of Computer Science Club and coding competitions",
+            "Relevant coursework: Hardware and Software Engineering, Database Systems, Web Development, Networking"
+        ],
+        "dateRange": "Sep 2020 - Oct 2024"
+    }
+]

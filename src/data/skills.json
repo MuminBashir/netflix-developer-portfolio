@@ -1,0 +1,122 @@
+[
+    {
+        "name": "TypeScript",
+        "category": "Languages",
+        "description": "Type-safe JavaScript development for better code quality and maintainability",
+        "icon": "SiTypescript"
+    },
+    {
+        "name": "Python",
+        "category": "Languages",
+        "description": "Backend development, data analysis, and automation scripts",
+        "icon": "FaPython"
+    },
+    {
+        "name": "C++",
+        "category": "Languages",
+        "description": "High-performance programming and system-level development",
+        "icon": "SiCplusplus"
+    },
+    {
+        "name": "Java",
+        "category": "Languages",
+        "description": "Enterprise applications, Spring Boot, and robust backend systems",
+        "icon": "FaJava"
+    },
+    {
+        "name": "React",
+        "category": "Frontend",
+        "description": "Building dynamic user interfaces with React hooks, context, and modern patterns",
+        "icon": "FaReact"
+    },
+    {
+        "name": "Angular",
+        "category": "Frontend",
+        "description": "Building scalable web applications with TypeScript and component-based architecture",
+        "icon": "FaAngular"
+    },
+    {
+        "name": "Next.js",
+        "category": "Frontend",
+        "description": "Full-stack React framework with SSR, SSG, and API routes",
+        "icon": "SiNextdotjs"
+    },
+    {
+        "name": "Node.js",
+        "category": "Backend",
+        "description": "Server-side development with Express.js, REST APIs, and microservices",
+        "icon": "FaNodeJs"
+    },
+    {
+        "name": "Django",
+        "category": "Backend",
+        "description": "Python web framework for rapid development and clean design",
+        "icon": "SiDjango"
+    },
+    {
+        "name": "PostgreSQL",
+        "category": "Databases",
+        "description": "Advanced relational database with complex queries and performance optimization",
+        "icon": "SiPostgresql"
+    },
+    {
+        "name": "MongoDB",
+        "category": "Databases",
+        "description": "NoSQL database for flexible document storage and scalable applications",
+        "icon": "SiMongodb"
+    },
+    {
+        "name": "GraphDB",
+        "category": "Databases",
+        "description": "Graph database for complex relationship modeling and traversal queries",
+        "icon": "SiNeo4j"
+    },
+    {
+        "name": "AWS",
+        "category": "DevOps",
+        "description": "Cloud infrastructure, deployment, and services (EC2, S3, Lambda, RDS)",
+        "icon": "FaAws"
+    },
+    {
+        "name": "Jenkins",
+        "category": "DevOps",
+        "description": "Continuous integration and deployment automation",
+        "icon": "SiJenkins"
+    },
+    {
+        "name": "Kubernetes",
+        "category": "DevOps",
+        "description": "Container orchestration and microservices deployment",
+        "icon": "SiKubernetes"
+    },
+    {
+        "name": "Ansible",
+        "category": "DevOps",
+        "description": "Infrastructure automation and configuration management",
+        "icon": "SiAnsible"
+    },
+    {
+        "name": "Terraform",
+        "category": "DevOps",
+        "description": "Infrastructure as Code for cloud resource provisioning",
+        "icon": "SiTerraform"
+    },
+    {
+        "name": "Git",
+        "category": "Tools",
+        "description": "Version control, branching strategies, and collaborative development",
+        "icon": "FaGitAlt"
+    },
+    {
+        "name": "Docker",
+        "category": "Tools",
+        "description": "Containerization and deployment automation",
+        "icon": "FaDocker"
+    },
+    {
+        "name": "Postman",
+        "category": "Tools",
+        "description": "API testing, documentation, and development workflow",
+        "icon": "SiPostman"
+    }
+]

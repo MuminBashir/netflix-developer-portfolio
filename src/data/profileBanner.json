@@ -1,0 +1,11 @@
+{
+    "backgroundImage": {
+        "url": "/images/banner-background.jpg"
+    },
+    "headline": "Full Stack Developer & Software Engineer",
+    "resumeLink": {
+        "url": "/documents/resume.pdf"
+    },
+    "linkedinLink": "https://linkedin.com/in/mumin-bashir",
+    "profileSummary": "Passionate Full Stack Developer with 2+ years of experience building scalable web applications. Expertise in React, Node.js, and cloud technologies. I love creating elegant solutions to complex problems and delivering exceptional user experiences."
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Advanced Devops",
+        "issuer": "Udemy",
+        "issuedDate": "Aug 2025",
+        "link": "",
+        "iconName": "FaCoursera"
+    },
+    {
+        "title": "Programming Fundamentals",
+        "issuer": "Coursera",
+        "issuedDate": "Nov 2021",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/RM75UAKMYXBJ",
+        "iconName": "FaCoursera"
+    },
+    {
+        "title": "Technical Support Fundamentals",
+        "issuer": "Coursera",
+        "issuedDate": "Oct 2021",
+        "link": "https://www.coursera.org/account/accomplishments/certificate/KE855A9WHGQL",
+        "iconName": "FaCoursera"
+    }
+]

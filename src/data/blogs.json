@@ -1,0 +1,77 @@
+[
+    {
+        "id": "blog1",
+        "title": "Mastering Async Patterns in Node.js",
+        "platform": "Medium",
+        "link": "https://medium.com/@yourusername/mastering-async-patterns-in-nodejs",
+        "description": "An overview of async/await, promises, and event loops in Node.js with real-world use cases.",
+        "publishedDate": "2024-03-22",
+        "readTime": "7 min read",
+        "tags": [
+            "Node.js",
+            "JavaScript",
+            "Backend",
+            "Async"
+        ]
+    },
+    {
+        "id": "blog2",
+        "title": "CI/CD for Modern DevOps Pipelines",
+        "platform": "Dev.to",
+        "link": "https://dev.to/yourusername/ci-cd-modern-devops-pipelines",
+        "description": "A guide on setting up automated CI/CD pipelines with GitHub Actions, Docker, and Kubernetes.",
+        "publishedDate": "2024-04-11",
+        "readTime": "9 min read",
+        "tags": [
+            "DevOps",
+            "CI/CD",
+            "Kubernetes",
+            "Docker"
+        ]
+    },
+    {
+        "id": "blog3",
+        "title": "Building SEO-Friendly Apps with Next.js",
+        "platform": "Medium",
+        "link": "https://medium.com/@yourusername/seo-friendly-nextjs",
+        "description": "Learn how to leverage SSR and ISR in Next.js to boost SEO performance for modern web apps.",
+        "publishedDate": "2024-05-05",
+        "readTime": "8 min read",
+        "tags": [
+            "Next.js",
+            "SEO",
+            "React",
+            "Frontend"
+        ]
+    },
+    {
+        "id": "blog4",
+        "title": "State Management in React: Beyond Redux",
+        "platform": "Dev.to",
+        "link": "https://dev.to/yourusername/react-state-management-beyond-redux",
+        "description": "Exploring modern alternatives to Redux like Zustand, Recoil, and Jotai for scalable React applications.",
+        "publishedDate": "2024-06-18",
+        "readTime": "10 min read",
+        "tags": [
+            "React",
+            "Frontend",
+            "State Management",
+            "JavaScript"
+        ]
+    },
+    {
+        "id": "blog5",
+        "title": "Event-Driven Architecture: A Practical Guide",
+        "platform": "Medium",
+        "link": "https://medium.com/@yourusername/event-driven-architecture-guide",
+        "description": "Insights into building scalable systems using event-driven architecture with Kafka and microservices.",
+        "publishedDate": "2024-07-02",
+        "readTime": "12 min read",
+        "tags": [
+            "Architecture",
+            "Event-Driven",
+            "Microservices",
+            "Backend"
+        ]
+    }
+]

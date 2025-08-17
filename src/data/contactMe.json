@@ -1,0 +1,12 @@
+{
+    "profilePicture": {
+        "url": "/images/profile-picture.jpg"
+    },
+    "name": "Mumin Bashir Baba",
+    "title": "Full Stack Developer",
+    "summary": "I'm a passionate developer who loves building amazing web applications and solving complex problems through code.",
+    "companyUniversity": "De Nada Tecnologia / University of Kashmir",
+    "linkedinLink": "https://linkedin.com/in/mumin-bashir",
+    "email": "belikemumin@example.com",
+    "phoneNumber": "+91 9596545300"
+}

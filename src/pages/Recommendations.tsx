@@ -1,26 +1,74 @@
-import React from 'react';
-import './Recommendations.css';
-import chrisProfilePic from '../images/chris.jpg'; // Adjust the path based on your directory structure
+import React, { useEffect, useState } from "react";
+import "./Recommendations.css";
+import { Recommendation } from "../types";
+import { getRecommendations } from "../queries/getRecommendations";
+import { FaUser } from "react-icons/fa";
 
 const Recommendations: React.FC = () => {
+  const [recommendations, setRecommendations] = useState<Recommendation[]>([]);
+
+  useEffect(() => {
+    async function fetchRecommendations() {
+      const data = await getRecommendations();
+      setRecommendations(data);
+    }
+
+    fetchRecommendations();
+  }, []);
+
+  const renderProfileImage = (rec: Recommendation) => {
+    if (rec.profileImage && rec.profileImage !== "") {
+      return (
+        <img
+          src={rec.profileImage}
+          alt={rec.name}
+          className="profile-pic"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+            e.currentTarget.nextElementSibling?.classList.remove("hidden");
+          }}
+        />
+      );
+    }
+    return null;
+  };
+
+  if (recommendations.length === 0)
+    return <div className="loading">Loading...</div>;
+
   return (
-    <div className='timeline-container'>
-      <div className="recommendation-card">
-        <div className="recommendation-header">
-          <img src={chrisProfilePic} alt="Chris Smith" className="profile-pic" />
-          <div>
-            <h3>Chris Smith</h3>
-            <p>Head of Kajima Community</p>
-            <p className="date">October 24, 2024</p>
+    <div className="timeline-container">
+      {recommendations.map((rec, index) => (
+        <div
+          key={rec.id}
+          className="recommendation-card"
+          style={{ "--delay": `${index * 0.2}s` } as React.CSSProperties}
+        >
+          <div className="recommendation-header">
+            <div className="profile-image-container">
+              {renderProfileImage(rec)}
+              <div
+                className={`profile-icon-fallback ${
+                  rec.profileImage ? "hidden" : ""
+                }`}
+              >
+                <FaUser />
+              </div>
+            </div>
+            <div className="header-info">
+              <h3>{rec.name}</h3>
+              <p className="title">{rec.title}</p>
+              <p className="company">{rec.company}</p>
+              <p className="date">{rec.date}</p>
+            </div>
+          </div>
+          <div className="recommendation-body">
+            {rec.recommendation.map((paragraph, pIndex) => (
+              <p key={pIndex} dangerouslySetInnerHTML={{ __html: paragraph }} />
+            ))}
           </div>
         </div>
-        <div className="recommendation-body">
-          <p>✨ "It is with great pleasure that I write this reference for Sumanth, who worked for us as a software developer at Kajima from June 2023. Unfortunately, due to a change in the company’s structure, we have made the difficult decision to make their position redundant. This in no way reflects on their performance, which was consistently excellent.</p>
-          <p>During their time with us, Sumanth demonstrated strong technical expertise, a passion for problem-solving, a willingness to learn, and a collaborative spirit that greatly contributed to our team’s success. They played a pivotal role in developing and maintaining key features of our software <strong>BookingsPlus</strong> and <strong>NHS Open Space</strong>, consistently delivering high-quality code while meeting project deadlines. Their ability to quickly adapt to new technologies and their proactive approach to finding innovative solutions set them apart."</p>
-          <p>💼 "Sumanth also showed exceptional teamwork and communication skills, effectively collaborating with cross-functional teams, including product managers, designers, and QA. Their professionalism, positive attitude, and dedication to their work made them an asset to the team."</p>
-          <p>🌟 "I have no doubt that Sumanth will be a valuable addition to any organization, and I wholeheartedly recommend them for any future opportunities."</p>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

@@ -1,13 +1,8 @@
-## 🌟 Sumanth Samala's Netflix inspired Portfolio 🌟 - https://sumanthsamala.com/
+## 🌟 Netflix-Inspired Portfolio Template 🌟
 
-Welcome to my personal portfolio project! 🚀 This website showcases my work, skills, and experiences in web development. It's designed to be lightweight, customizable, and professional while maintaining an approachable style.
+Welcome to your personal portfolio project! 🚀 This website template is designed to showcase your work, skills, and experiences in a Netflix-inspired interface. It's lightweight, customizable, and professional while maintaining an engaging user experience.
 
-Explore specific subdomains tailored to different tech stacks:
-
-- 🌟 [java.sumanthsamala.com](https://java.sumanthsamala.com/) for Java Spring Boot-related work.
-- 🌟 [node.sumanthsamala.com](https://node.sumanthsamala.com/) for Node.js and backend development.
-- 🌟 [frontend.sumanthsamala.com](https://frontend.sumanthsamala.com/) for frontend development expertise.
-- 🌟 [ror.sumanthsamala.com](https://ror.sumanthsamala.com/) for Ruby on Rails projects.
+**Now with Static JSON Data Management!** ✨ No external CMS required - everything is managed through simple JSON files.
 
 ![Screenshot from 2024-12-08 19-19-06](https://github.com/user-attachments/assets/f8220485-16ec-48cf-8cb2-7853540c5724)
 
@@ -15,11 +10,12 @@ Explore specific subdomains tailored to different tech stacks:
 
 ## ✨ Features
 
-- 🌍 **Dynamic Content**: Powered by [DatoCMS](https://www.datocms.com) for easy content management.
+- 📄 **Static JSON Data**: No external CMS required - manage content through simple JSON files.
 - ⚡ **Fast & Responsive**: Built with modern web technologies for seamless performance.
-- 🎨 **Customizable**: Modular and easy to adapt to your own needs.
+- 🎨 **Fully Customizable**: Easily adapt to your own needs by editing JSON files.
 - 📈 **Professional Yet Personal**: Highlights projects, skills, and achievements.
-- 🎨 It can support various por
+- 🖼️ **Local Asset Management**: Images and documents stored locally in public folder.
+- 🎭 **Netflix-Inspired UI**: Engaging interface that captures attention.
 
 ---
 
@@ -27,11 +23,12 @@ Explore specific subdomains tailored to different tech stacks:
 
 This portfolio is built with love and:
 
-- ⚛️ **React** (Frontend)
-- ☁️ **AWS S3 & CloudFront** (Hosting and CDN)
-- 🖌️ **Tailwind CSS** (Styling)
-- 🛡️ **DatoCMS** (Content Management)
-- 🧩 **Other Cool Tools**: GitHub Actions
+- ⚛️ **React** (Frontend Framework)
+- 📊 **TypeScript** (Type Safety)
+- 📄 **Static JSON Data** (Content Management)
+- 🎨 **CSS3** (Styling)
+- 🖼️ **React Icons** (Icon Library)
+- 📱 **Responsive Design** (Mobile-First Approach)
 
 ---
 
@@ -53,24 +50,21 @@ Want to set this up locally? Follow these steps:
 ```bash
 nvm install 18
 nvm use 18
-```
-
-After upgrading Node.js, clear your node_modules and reinstall:
-
-```bash
-rm -rf node_modules
-npm cache clean --force
 npm install
 ```
 
-3. **Configure Environment Variables**: Create a `.env` file and set up the necessary API keys and configurations.
-4. **Run the Project**: Start the development server.
+3. **Customize Your Content**: Edit the JSON files in `src/data/` directory with your information.
+4. **Add Your Assets**: Place your images in `public/images/` and documents in `public/documents/`.
+5. **Run the Project**: Start the development server.
 
 ```bash
 npm start
 ```
 
-5. **Visit the Local Server**: Open your browser and navigate to the local server URL.
+6. **Visit the Local Server**: Open your browser and navigate to `http://localhost:3000`.
+
+📖 **For detailed customization instructions, see [CONTENT_GUIDE.md](CONTENT_GUIDE.md)** 
+
    ![alt text](image.png)
 
 ---
@@ -102,17 +96,18 @@ Your feedback is valuable and helps make this project better for everyone. Thank
 
 ## 🌟 Acknowledgments
 
-- Thanks to [DatoCMS](https://www.datocms.com) for powering the dynamic content.
-- Inspired by countless developers in the open-source community. 💻
+- Inspired by Netflix's amazing user interface design. 🎬
+- Thanks to the React and open-source community. 💻
 - Special shoutout to all contributors—you rock! 🤘
+- Original concept by Sumanth Samala, now enhanced for static content management.
 
 ---
 
 ## 📧 Contact Me
 
-- 💼 [Portfolio Website](https://sumanthsamala.com)
-- 📧 Email: [chintusamala96@gmail.com](mailto:chintusamala96@gmail.com)
-- 🔗 [LinkedIn](https://uk.linkedin.com/in/sumanth-samala-82431161)
+- 💼 [Portfolio Website](https://muminbashir.in)
+- 📧 Email: [chintusamala96@gmail.com](mailto:belikemumin@gmail.com)
+- 🔗 [LinkedIn](https://uk.linkedin.com/in/mumin-bashir)
 
 ---
 

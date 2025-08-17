@@ -1,0 +1,149 @@
+{
+    "quote": "\"Music is the closest thing we have to time travel.\" 🎶",
+    "favoriteGenres": [
+        "Retro",
+        "Ghazal",
+        "Romantic",
+        "Rock"
+    ],
+    "favoriteMusics": [
+        {
+            "title": "In Dino",
+            "artist": "Pritam",
+            "album": "Life in a... Metro",
+            "year": "2007",
+            "image": "/images/music/life-in-a-metro.jpeg",
+            "musicLink": "/audio/in-dino-life-in-a-metro.mp3"
+        },
+        {
+            "title": "Saiyaara",
+            "artist": "Faheem Abdullah",
+            "album": "Saiyaara",
+            "year": "2025",
+            "image": "/images/music/saiyaara.jpg",
+            "musicLink": "/audio/title-track-saiyaara.mp3"
+        },
+        {
+            "title": "Jhol",
+            "artist": "Mannu, Annural Khalid",
+            "album": "Coke Studio Pakistan",
+            "year": "2024",
+            "image": "/images/music/jhol-coke-studio.jpg",
+            "musicLink": "/audio/jhol-coke-studio.mp3"
+        },
+        {
+            "title": "Afsanay",
+            "artist": "Talhah Yunus, Talha Anjum",
+            "album": "Young Stunners",
+            "year": "1992",
+            "image": "/images/music/afsanay-young-stunners.jpg",
+            "musicLink": "/audio/afsanay-young-stunners.mp3"
+        },
+        {
+            "title": "See You Again",
+            "artist": "Wiz Khalifa, Charlie Puth",
+            "album": "Furious 7",
+            "year": "2015",
+            "image": "/images/music/see-you-again-ff7.jpg",
+            "musicLink": "/audio/see-you-again-ff7.mp3"
+        },
+        {
+            "title": "Starboy",
+            "artist": "Weekend Ft. Daft Punk",
+            "album": "Weekend",
+            "year": "2016",
+            "image": "/images/music/weekend-starboy.jpg",
+            "musicLink": "/audio/weekend-starboy.mp3"
+        },
+        {
+            "title": "Na ja",
+            "artist": "Pav Dharia",
+            "album": "Na ja",
+            "year": "2017",
+            "image": "/images/music/naja-naja.jpeg",
+            "musicLink": "/audio/naja-naja.mp3"
+        }
+    ],
+    "playlist": {
+        "Retro": [
+            {
+                "title": "Rim Jhim Gire Sawan",
+                "artist": "Kishore Kumar, Lata Mangeshkar",
+                "album": "Manzil",
+                "year": "1979",
+                "image": "/images/music/manzil.jpg",
+                "musicLink": "/audio/rim-jhim-gire-sawan-manzil.mp3"
+            },
+            {
+                "title": "Chura Liya Hai Tumne",
+                "artist": "Asha Bhosle & Mohammed Rafi",
+                "album": "Yaadon Ki Baaraat",
+                "year": "1973",
+                "image": "/images/music/yaadon-ki-baraat.jpg",
+                "musicLink": "/audio/chura-liya-hai-tumne-yaadon-ki-baraat.mp3"
+            },
+            {
+                "title": "Bombastic",
+                "artist": "Shaggy",
+                "album": "Mr Lover Lover",
+                "year": "2009",
+                "image": "/images/music/bombastic.jpg",
+                "musicLink": "/audio/bombastic.mp3"
+            }
+        ],
+        "Romantic": [
+            {
+                "title": "In Dino",
+                "artist": "Pritam",
+                "album": "Life in a... Metro",
+                "year": "2007",
+                "image": "/images/music/life-in-a-metro.jpeg",
+                "musicLink": "/audio/in-dino-life-in-a-metro.mp3"
+            },
+            {
+                "title": "Saiyaara",
+                "artist": "Faheem Abdullah",
+                "album": "Saiyaara",
+                "year": "2025",
+                "image": "/images/music/saiyaara.jpg",
+                "musicLink": "/audio/title-track-saiyaara.mp3"
+            },
+            {
+                "title": "Jhol",
+                "artist": "Mannu, Annural Khalid",
+                "album": "Coke Studio Pakistan",
+                "year": "2024",
+                "image": "/images/music/jhol-coke-studio.jpg",
+                "musicLink": "/audio/jhol-coke-studio.mp3"
+            }
+        ],
+        "Ghazal": [
+            {
+                "title": "Hothon Se Chhu Lo Tum",
+                "artist": "Jagjit Singh",
+                "album": "Prem Geet",
+                "year": "1981",
+                "image": "/images/music/prem-geet.jpg",
+                "musicLink": "/audio/honthon-se-chhu-lo-tum.mp3"
+            },
+            {
+                "title": "Hungama Hai Kyon Barpa",
+                "artist": "Ghulam Ali",
+                "album": "Shaam-E-Ghazal",
+                "year": "2022",
+                "image": "/images/music/hungama-kyun-hai-barpa.jpg",
+                "musicLink": "/audio/hungama-kyun-hai-barpa.mp3"
+            }
+        ],
+        "Rock": [
+            {
+                "title": "Aadat",
+                "artist": "Jal The Band",
+                "album": "Aadat",
+                "year": "2003",
+                "image": "/images/music/jal-the-band.jpeg",
+                "musicLink": "/audio/aadat-jal-the-band.mp3"
+            }
+        ]
+    }
+}

@@ -1,20 +1,12 @@
 // queries/getCertifications.ts
-import datoCMSClient from './datoCMSClient';
-import { Certification } from '../types';
-
-const GET_CERTIFICATIONS = `
-  query {
-    allCertifications {
-      title
-      issuer
-      issuedDate
-      link
-      iconName
-    }
-  }
-`;
+import { Certification } from "../types";
+import certificationsData from "../data/certifications.json";
 
 export async function getCertifications(): Promise<Certification[]> {
-  const data = await datoCMSClient.request<{ allCertifications: Certification[] }>(GET_CERTIFICATIONS);
-  return data.allCertifications;
+  // Simulate async behavior to maintain compatibility
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(certificationsData as Certification[]);
+    }, 100);
+  });
 }

@@ -1,0 +1,72 @@
+[
+    {
+        "id": "book1",
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "image": "/images/books/atomic-habits.jpg",
+        "description": "A practical guide to building good habits and breaking bad ones through small, incremental changes.",
+        "category": "Self-Help",
+        "rating": 5,
+        "keyTakeaways": [
+            "Small changes compound over time",
+            "Focus on systems, not goals",
+            "Environment design is crucial"
+        ]
+    },
+    {
+        "id": "book2",
+        "title": "Rich Dad Poor Dad",
+        "author": "Robert Kiyosaki",
+        "image": "/images/books/rich-dad-poor-dad.jpg",
+        "description": "An eye-opener on wealth, assets, and financial literacy that challenges conventional thinking about money.",
+        "category": "Finance",
+        "rating": 4,
+        "keyTakeaways": [
+            "Assets vs liabilities distinction",
+            "Importance of financial education",
+            "Multiple income streams"
+        ]
+    },
+    {
+        "id": "book3",
+        "title": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "/images/books/the-alchemist.jpg",
+        "description": "A magical journey of following one's dreams and discovering the treasure that lies within.",
+        "category": "Fiction",
+        "rating": 5,
+        "keyTakeaways": [
+            "Follow your personal legend",
+            "The universe conspires to help you",
+            "Treasure is found in the journey"
+        ]
+    },
+    {
+        "id": "book4",
+        "title": "Eat That Frog",
+        "author": "Brian Tracy",
+        "image": "/images/books/eat-that-frog.jpg",
+        "description": "A motivational book on overcoming procrastination and maximizing productivity.",
+        "category": "Productivity",
+        "rating": 4,
+        "keyTakeaways": [
+            "Do the hardest task first",
+            "Planning prevents poor performance",
+            "Focus on high-value activities"
+        ]
+    },
+    {
+        "id": "book5",
+        "title": "The Pragmatic Programmer",
+        "author": "David Thomas & Andrew Hunt",
+        "image": "/images/books/the-pragmatic-programmer.jpg",
+        "description": "Essential reading for software developers, covering best practices and professional development.",
+        "category": "Technology",
+        "rating": 5,
+        "keyTakeaways": [
+            "DRY principle (Don't Repeat Yourself)",
+            "Automate repetitive tasks",
+            "Continuous learning is essential"
+        ]
+    }
+]
